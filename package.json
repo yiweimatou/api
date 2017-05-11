@@ -1,0 +1,23 @@
+{
+  "name": "api",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/yiweimatou/api.git",
+  "author": "ratelgogo <ratelgogo@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "dev": "LOG_LEVEL='debug' nodemon -w ./src -e js ./src/server.js"
+  },
+  "dependencies": {
+    "axios": "^0.16.1",
+    "koa": "^2.2.0",
+    "koa-compress": "^2.0.0",
+    "koa-pino-logger": "^2.1.1",
+    "koa-router": "next",
+    "pino": "^4.5.2"
+  },
+  "devDependencies": {
+    "eslint": "^3.19.0",
+    "nodemon": "^1.11.0"
+  }
+}
